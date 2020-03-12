@@ -56,9 +56,9 @@ window.addEventListener('load',async function(){
 });
 
 async function handleSubmitBook(){
-    let title=document.getElementById("input-title").Value;
-    let isbn=document.getElementById("input-isbn").Value;
-    let date=document.getElementById("input-date").Value;
+    let title=document.getElementById("input-title").value;
+    let isbn=document.getElementById("input-isbn").value;
+    let date=document.getElementById("input-date").value;
     if(title.trim()!=""&&isbn.trim()!=""&&date.trim()!=""){
         document.getElementById("loader").style.display="block";
         await contractInstance.methods.registerBook(title,isbn,date);
