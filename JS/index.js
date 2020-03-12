@@ -88,4 +88,3 @@ function addBookToDom(title,isbn){
    allBooks.appendChild(newBookDiv);
 }
 
-addBookToDom("ayeni tea","12345");
