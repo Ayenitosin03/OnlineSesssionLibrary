@@ -55,7 +55,7 @@ window.addEventListener('load',async function(){
     document.getElementById("loader").style.display="none";
 });
 
-async function handleSubmitBook(title,isbn){
+async function handleSubmitBook(){
     let title=document.getElementById("input-title").Value;
     let isbn=document.getElementById("input-isbn").Value;
     let date=document.getElementById("input-date").Value;
